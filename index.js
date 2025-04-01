@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Initialize Google Cloud Storage
 const storage = new Storage();
-const bucketName = "your-bucket-name";
+const bucketName = "test-bucket-908765";
 const bucket = storage.bucket(bucketName);
 
 // Configure Multer for file uploads
